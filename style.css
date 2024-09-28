@@ -40,17 +40,32 @@ html {
         text-decoration: none;
         text-align: center;
         display: block;
-        color: #bababa;
+        color: #7996a5;
         font-family: "Open Sans", sans-serif;
-        font-weight: 400;
+        font-weight: 600;
     }
     
-    /* .div-gen {
-        margin-top: 100%;
-    } */
+    button {
+        background: none;
+        border: none;
+        background: rgb(0 0 0 / 42%);
+        border-radius: 5px;
+        width: 96%;
+        padding: 10px;
+        margin-left: 50px;
+        text-decoration: none;
+        font-size: 20px;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        color: #7996a5;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        
+    }
     
     p {
-        background: rgb(0 0 0 / 77%);
+        background: rgb(0 0 0 / 42%);
         border-radius: 5px;
         width: 90%;
         padding: 10px;
@@ -58,22 +73,53 @@ html {
     }
     
     img {
-        margin-left: -10%;
-        margin-top: -10%;
+        margin-left: 6%;
+        margin-top: 20%;
     }
     
-    /* html {
-        background: linear-gradient(45deg, black, transparent);
-    } */
-    
     html, body {
-        height: 100%;
         margin: 0;
         padding: 0;
     }
     
     html {
-        background: linear-gradient(360deg, #0069be, transparent);
+        background: linear-gradient(360deg, #002b4e, #6d5555);
         background-size: cover;
+        width: 100%;
+        height: 113%;
+    }
+
+    .volver {
+        width: 15%;
+        margin-left: 45%;
+        margin-left: 42%;
+    }
+
+    .div-gen {
+        width: 90%;
+        margin-left: -5%;
+        margin-top: 30%;
+    }
+
+    .my-custom-title {
+        font-family: 'Exo 2', sans-serif;
+        font-size: 25px;
+        color: #1f1f1f;
+        text-shadow: 1px 1px 0px #006ec1;
+    }
+    
+    .my-custom-content {
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    .my-custom-input {
+        background: #1f1f1f;
+        border-radius: 20px;
+        border: 2px solid #006ec1;
+        color: #eaebef;
+    }
+    
+    .custom-confirm-button {
+        background-color: #006ec1;
     }
 }
