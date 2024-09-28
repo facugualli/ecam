@@ -104,9 +104,8 @@ html {
 
     .my-custom-title {
         font-family: 'Exo 2', sans-serif;
-        font-size: 25px;
+        font-size: 20px;
         color: #1f1f1f;
-        text-shadow: 1px 1px 0px #006ec1;
     }
     
     .my-custom-content {
@@ -114,9 +113,9 @@ html {
     }
     
     .my-custom-input {
-        background: #1f1f1f;
-        border-radius: 20px;
-        border: 2px solid #006ec1;
+        background: rgba(37, 36, 56, 0.42);
+        border-radius: 5px;
+        border: none;
         color: #eaebef;
     }
     
